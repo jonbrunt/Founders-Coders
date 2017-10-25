@@ -144,10 +144,3 @@ if (document.documentElement.clientWidth < 750) photoBox.style.display = 'none'
 // 		$('#photobox').hide();
 // 	});
 // }
-
-function test() {
-	var a = 10;
-	var b = 20; 
-	a = b;
-	console.log(a, b);
-}
