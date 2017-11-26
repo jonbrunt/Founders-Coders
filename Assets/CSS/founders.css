@@ -48,6 +48,7 @@ div {
 }
 
 #dropdown {
+	margin-top: 2px;
 	display: none;
 	float: right;
 	background-color: #2a2a2a;
