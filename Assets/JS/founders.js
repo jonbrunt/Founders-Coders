@@ -19,7 +19,7 @@ function fadeIn(element, time) {
 	//calls function for fade in animation
 	animate();
 }
-//fades in body element on page load or reload over  3000ms
+//fades in body element on page load or reload over 3000ms
 fadeIn(body, 3000);
 //sets initial 1500ms delay and fades in logo over 1000 ms
 setTimeout(function() {
