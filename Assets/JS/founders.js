@@ -99,6 +99,11 @@ window.addEventListener('resize', function() {
 if (document.documentElement.clientWidth < 750) photoBox.style.display = 'none'
 });
 
+//  copyright year dynamic update
+const yearSpan = document.querySelector('#year');
+//  updates year using date object and built in method
+yearSpan.innerHTML = `${new Date().getFullYear()}`;
+
 // //jQuery alternative for vanilla JS utilized in fade ins...note CSS properties for opacity and display would need to be changed for this alternate code
 // $('body').fadeIn(1500, function () {
 // 	$('.logo').fadeIn(1000);
