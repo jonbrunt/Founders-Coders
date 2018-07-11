@@ -1,1 +1,2 @@
-# founders_coders
+# Founders and Coders
+My personal website for a 2017 application to the Founders and Coders cohort in Nazarath, Israel that did not form due to their financing. It utilizes plain HTML, CSS, and vanilla JS, with custom functions written for fade in, hiding and showing a "lightbox", and toggling a hamburger menu. The site is responsive in design, with full mobile functionality (except the "lightbox" option for zooming in on photos).
